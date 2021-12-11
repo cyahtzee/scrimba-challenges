@@ -6,8 +6,8 @@ import '../assets/stylesheets/application.scss';
 const Home = () => {
   return (
     <div>
-      <div className="footer">
-        <i class="devicon-react-original colored">React Facts</i>
+      <div className="nav-bar">
+        <i className="devicon-react-original colored">React Facts</i>
         <span>React course - project1</span>
       </div>
       <h1>Fun facts about React</h1>
