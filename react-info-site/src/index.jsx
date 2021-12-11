@@ -23,7 +23,7 @@ const Home = () => {
         </ul>
       </div>
       <footer>
-        <small>"© 2021 Moahtdeep development. All rights reserved."</small>
+        <small>© 2021 Moahtdeep development. All rights reserved.</small>
       </footer>
     </div>
   );
