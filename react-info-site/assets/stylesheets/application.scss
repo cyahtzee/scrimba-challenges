@@ -1,10 +1,17 @@
 body {
   font-family: Helvetica;
+  margin: 0;
 }
 
-#root {
-  height: 100vh;
+
+.footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 80px;
+  padding: 16px;
+  span {
+    color: white;
+  }
 }
