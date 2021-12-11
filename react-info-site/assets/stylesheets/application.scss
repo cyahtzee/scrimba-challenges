@@ -4,19 +4,32 @@ body {
   background-color: #23272e;
 }
 
-
-.nav-bar {
+.navitems {
+  box-shadow:#23272e;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #282C34;
   height: 80px;
   padding: 16px;
-  span {
-    color: rgb(255, 255, 255);
+
+  ul {
+    color:rgb(255, 255, 255);
+    list-style: none;
+    display: flex;
+    li {
+      padding: 8px;
+    }
   }
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  color: #61DAFB;
   i {
-    color: #61DAFB;
+    font-size: 60px;
+    margin-right: 16px;
   }
 }
 
@@ -35,4 +48,6 @@ body {
 footer {
   text-align: center;
   color: #61DAFB;
+  border: 1px solid white;
+  margin-top: 16px;
 }
