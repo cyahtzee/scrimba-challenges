@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica;
   margin: 0;
+  background-color: rgb(190, 190, 190);
 }
 
 
@@ -14,4 +15,20 @@ body {
   span {
     color: rgb(255, 255, 255);
   }
+}
+
+.body-info {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  ul {
+    max-width: 20em;
+    margin: auto;
+    li {
+      text-align: left;
+    }
+  }
+}
+
+footer {
+  text-align: center;
 }
