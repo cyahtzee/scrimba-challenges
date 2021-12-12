@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import reactLogo from '../../assets/images/react-icon-large.png';
 
 class Main extends Component {
   render() {
     return (
       <div className="body-info">
+        <img src={reactLogo} alt="" />
         <h1>Fun facts about React</h1>
         <ul>
           <li>Was first released in 2013</li>

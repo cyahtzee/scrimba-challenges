@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Helvetica;
   margin: 0;
-  background-color: #23272e;
+  background-color: #282D35;
 }
 
 .navitems {
@@ -9,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #282C34;
+  background-color: #21222A;
   height: 80px;
   padding: 16px;
 
@@ -39,7 +43,10 @@ body {
   ul {
     max-width: 20em;
     margin: auto;
-    li {
+    li::marker {
+      font-size: 2.2rem;
+      color: #61DAFB;
+      padding-block: 10px;
       text-align: left;
     }
   }
