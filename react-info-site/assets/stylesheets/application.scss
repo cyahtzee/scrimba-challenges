@@ -38,6 +38,10 @@ body {
 }
 
 .body-info {
+  background-image: url("/assets/images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
   text-align: center;
   color: rgb(255, 255, 255);
   ul {

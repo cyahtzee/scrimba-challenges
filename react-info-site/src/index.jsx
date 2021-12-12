@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 
 import '../assets/stylesheets/application.scss';
 
+
 const Home = () => {
   return (
     <div>
