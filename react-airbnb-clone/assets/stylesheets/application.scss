@@ -12,3 +12,22 @@ body {
     max-width: 120px;
   }
 }
+
+.photo-grid {
+  padding: 16px 36px;
+  img {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 48px auto;
+  }
+  .photo-grid-text {
+    line-height: 110%;
+    h1 {
+      font-weight: 600;
+    }
+    p {
+      font-weight: 300;
+    }
+  }
+}
