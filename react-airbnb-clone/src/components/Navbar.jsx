@@ -3,8 +3,8 @@ import airbnb from '../../assets/images/airbnb-logo.png'
 class Navbar extends Component {
   render() {
     return (
-      <div>
-        <img src={airbnb} alt="" />
+      <div className="navbar-component">
+        <img src={airbnb} alt="airbnb-logo" />
       </div>
     );
   }
