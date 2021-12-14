@@ -1,10 +1,33 @@
-body {
-  font-family: Helvetica;
+*{
+  box-sizing: border-box;
 }
 
-#root {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 8px;
+}
+
+.header--title {
+    font-size: 2.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 1.25rem;
+    font-weight: 500;
 }
