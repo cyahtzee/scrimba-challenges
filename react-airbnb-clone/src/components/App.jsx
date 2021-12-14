@@ -1,25 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react'
 import Navbar from './Navbar'
 import Grid from './Grid'
 import Card from './Card'
+import data from '../data'
 
-class App extends Component {
-  render() {
+
+const App = () => {
+  const cards = data.map(item => {
     return (
-      <div>
-        <Navbar />
-        <Grid />
-        <Card
-          title="Life lessons with Katie Zaferas"
-          price="136"
-          country="USA"
-          img="katie-zaferes.png"
-          raiting="5.0"
-          reviewCount="6"
-        />
+      <Card
+        title={item.title}
+        price={item.price}
+        location={item.location}
+        coverImg={item.coverImg}
+        rating={item.stats.rating}
+        reviewCount={item.stats.reviewCount}
+      />
+    )
+  });
+  return (
+    <div>
+      <Navbar />
+      <Grid />
+      <div className="cards">
+        {cards}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default App;

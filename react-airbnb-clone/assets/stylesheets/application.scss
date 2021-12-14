@@ -33,10 +33,15 @@ body {
   }
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 32px 32px;
+}
 .card {
   width: 175px;
   font-size: 12px;
-  .card-img {
+  .card-image {
     border-radius: 9px;
     width: 100%;
   }
