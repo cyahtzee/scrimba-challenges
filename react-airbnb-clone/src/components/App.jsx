@@ -16,6 +16,7 @@ const App = () => {
         coverImg={item.coverImg}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
+        openSpots={item.openSpots}
       />
     )
   });

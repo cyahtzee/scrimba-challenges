@@ -32,7 +32,6 @@ body {
     }
   }
 }
-
 .cards {
   display: grid;
   gap: 16px;
@@ -43,13 +42,22 @@ body {
 .card {
   width: 175px;
   font-size: 12px;
-  .card-image {
-    border-radius: 9px;
-    width: 100%;
-  }
+  position: relative;
 }
-
+.card-image {
+  border-radius: 9px;
+  width: 100%;
+}
 .card-header {
   display: flex;
   align-items: center;
+}
+.card-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 9px;
+  padding: 2px 8px;
 }
