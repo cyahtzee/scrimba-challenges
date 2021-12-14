@@ -10,13 +10,7 @@ const App = () => {
     return (
       <Card
         key={item.id}
-        title={item.title}
-        price={item.price}
-        location={item.location}
-        coverImg={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        openSpots={item.openSpots}
+        item={item}
       />
     )
   });

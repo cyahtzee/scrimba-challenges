@@ -2,21 +2,21 @@ import React from 'react';
 import star from '../../assets/images/star.png'
 
 
-const Card = ({ coverImg, rating, reviewCount, title, location, price, openSpots }) => {
+const Card = ({ item }) => {
   return (
     <div className="card">
       <div className="card-badge">
-        <small>{openSpots > 0 ? `${openSpots} spots` : `soldout`}</small>
+        <small>{item.openSpots > 0 ? `${item.openSpots} spots` : `soldout`}</small>
       </div>
-      <img src={`../../assets/images/${coverImg}`} alt="katie-zaferes" className="card-image" />
+      <img src={`../../assets/images/${item.coverImg}`} alt="katie-zaferes" className="card-image" />
       <div className="card-header">
         <img src={star} alt="star" />
-        <span>{rating}</span>
-        <span>({reviewCount})・</span>
-        <span>{location}</span>
+        <span>{item.stats.rating}</span>
+        <span>({item.stats.reviewCount})・</span>
+        <span>{item.location}</span>
       </div>
-      <p>{title}</p>
-      <p><strong>From ${price}</strong> / person</p>
+      <p>{item.title}</p>
+      <p><strong>From ${item.price}</strong> / person</p>
     </div>
   );
 };
