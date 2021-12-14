@@ -9,6 +9,7 @@ const App = () => {
   const cards = data.map(item => {
     return (
       <Card
+        key={item.id}
         title={item.title}
         price={item.price}
         location={item.location}
