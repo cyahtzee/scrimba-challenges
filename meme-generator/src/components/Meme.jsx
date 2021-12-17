@@ -12,11 +12,11 @@ const Meme = () => {
   }
   return (
     <main>
-      <form className="form">
+      <div className="form">
         <input className="form--input" type="text" placeholder="top text" />
         <input className="form--input" type="text" placeholder="bottom text" />
         <button onClick={handleClick} className="form--button" type="submit">Get a new meme image 🖼</button>
-      </form>
+      </div>
       <div className="meme">
         <img src={memeImage} alt="meme" />
       </div>
