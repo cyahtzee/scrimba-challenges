@@ -1,7 +1,7 @@
 export default function App() {
   return (
-    <div className="App">
+    <main>
       <h1>Hello to Tenzies</h1>
-    </div>
+    </main>
   );
 }
